@@ -1,0 +1,201 @@
+body{
+font-family: 'supermarketregular';
+}
+
+
+.background-wrap{
+ position: fixed;
+ z-index: -1000;
+ width: 100%;
+ height: 100%;
+ overflow:hidden;
+ top: 0;
+ left: 0;
+}
+
+#video-bg-elem{
+  postion: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262624;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white !important;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #d1d1d1;
+}
+
+li a:hover {
+    color: #876c4e !important;
+}
+
+
+
+.active {
+    background-color: #666666;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.slide{
+  margin-top: 40px;
+  padding-top: 40px;
+}
+
+.mymenu .navbar-brand {
+  height: 80px;
+}
+
+.mymenu .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.mymenu .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+#footer {
+        height: 200px;
+      }
+#footer {
+        background-color: #262624;
+      }
+	  
+.foottext {
+	color:#FFFFFF;
+}
+
+.mydata {
+  background-color: white;
+}
+
+.logo2 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.logo2:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+#banneracti {
+	 float: right;
+	}
+
+#banneractil {
+   float: left;
+  }
+
+.textcontents{
+
+    font-size: 20px ;
+    padding: 25px;
+	  text-align:justify; } 
+ 
+#textcontentsf{
+
+    font-size: 20px ;
+    
+    text-align:justify; 
+    padding-bottom:  0px;
+    margin: 0px 10px 0px 0px; } 
+	 
+.headtext {
+    font-size: 25px;
+	padding: 25px;
+	padding-bottom:  0px;
+  padding-top: 0px;
+  }
+
+.imgfloat {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.imgfloatl {
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#map {
+        width: 95%;
+        height: 600px;
+         padding-top: 0px;
+      }
+
+#whitefonttable {
+  color:white
+}
+
+.table {
+  padding: 25px;
+  padding-top: 0px;
+  padding-bottom:  0px;
+}
+
+.table1 {
+  padding: 25px;
+  padding-top: 0px;
+  padding-bottom:  0px;
+}
+
+#hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-style: inset;
+    border-width: 1px;
+
+} 
+#tomo {
+   margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 95.5%;
+        height: 95.5%;
+  }
+
+#kairight{
+  float: right;
+  margin-right: 15px;
+  margin-left: 0px
+    
+}
+#kaifeft{
+  float: left;
+  margin-left: 25px;
+  margin-right: 0px;
+}
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
